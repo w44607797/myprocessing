@@ -1,4 +1,4 @@
-package objectpool;
+package shotblock;
 
 public class Triangle implements Block{
     private int x;
@@ -17,6 +17,11 @@ public class Triangle implements Block{
 //        fill(0,0,0);
 //        textSize(30);
 //        text(score,x-15,y+10);
+    }
+
+    @Override
+    public int getY() {
+        return y;
     }
 
 

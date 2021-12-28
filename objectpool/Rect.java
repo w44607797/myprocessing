@@ -1,4 +1,4 @@
-package objectpool;
+package shotblock;
 
 public class Rect implements Block{
     private int x;
@@ -14,5 +14,10 @@ public class Rect implements Block{
 //        rect(x, y, 55, 55, 7);
 
 
+    }
+
+    @Override
+    public int getY() {
+        return y;
     }
 }

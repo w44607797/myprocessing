@@ -1,4 +1,4 @@
-package objectpool;
+package shotblock;
 
 public class PoolFactory {
     private PoolFactory(){}
